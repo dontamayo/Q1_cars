@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-  <html>
-    <head>
+  <html lang="en">
+    <head
+        <meta charset="utf-8">
         <title>Car Mania</title>
           <link rel="stylesheet" href="./style.css">
     </head>
 
 
     <body>
-      <div>
-        <header>
+      <div>  <!-- start of div tag -->
+        <header id="home">
           <h1>Lets Talk About Car</h1>
           <p>There's three things men always talk about - <em> women, sports, and cars</em></p>
 
           <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="articles.html">Articles</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#contacts">Contact</a></li>
             </ul>
           </nav>
         </header>
@@ -31,7 +32,7 @@
           </div>
 
         <main>
-          <section>
+          <section id="about">
             <h2>About this Site</h2>
             <p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vehicula metus in bibendum laoreet. Aenean libero est, egestas eu eros pretium, sodales iaculis est.</p>
             <figure>
@@ -40,7 +41,7 @@
             </figure>
           </section>
 
-          <section>
+          <section  id="articles">
                 <h2>Car Show</h2>
 
                 <h3>A dream without ambition is like a car without gas... you're not going anywhere. </h3>
@@ -57,10 +58,15 @@
                 <p>But here’s where surge pricing comes in. If traveling during peak hours is more expensive than off-peak, people will have an incentive to shave off those peaks. People who aren’t commuting to work will avoid travel at peak hours; some people will find other ways to travel; some people (and businesses) will rearrange their schedules to take advantage of cheaper off-peak travel. So you can imagine a society that still relies mainly on cars to get around, but manages to do this with significantly fewer cars than we need at present.</p>
 
                 <p>Cars aren’t the only consumer durable where something like this might work, of course. People in New York don’t need refrigerators (and in particular freezers) that are as big as those in the suburbs, because it’s so easy to pop around the corner for groceries; online ordering and delivery could produce a similar effect outside the city. But cars are surely the big prize.</p>
-                    <a href="articles.html">To read more</a>
+                    <a href="articles.html#articles">To read more</a>
             </article>
 
-         <article>
+            <figure>
+              <img src="img/cars/pexels-photo-190574.jpg" alt="engines" width="600" height="450">
+              <figcaption>"make it shine and clean"</figcaption>
+            </figure>
+
+           <article>
                  <h3>Tips on Buying a Car</h3>
                  <p>
                 1. If you're in no rush to buy a car, the end of a model year is a great time to get a deal. Determining when this is for a particular car can be difficult, but if a dealer has two years of a new vehicle on its lot (say, 2014s and 2015s), chances are the older ones are going to be priced to move. The last week of the year is another good time to buy. You'll find lots of specials and manufacturer incentives at both times of year.</p>
@@ -89,15 +95,15 @@
 
 
           <blockquote>
-            "Virtual reality was once the dream of science fiction. But the internet was also once a dream, and so were computers and smartphones. The future is coming." - <cite><a href="https://www.facebook.com/zuck/posts/10101319050523971
-  ">Mark Zuckerberg</a></cite>
+            "Virtual reality was once the dream of science fiction. But the internet was also once a dream, and so were computers and smartphones. The future is coming." - <cite><a href="https://www.facebook.com/zuck/posts/10101319050523971">Mark Zuckerberg</a></cite>
           </blockquote>
+
         <h3>Auto Show Schedule</h3>
         <a href="https://www.autoshowny.com/" target="_blank">click me!</a>
 
-      <section>
+      <section id="contacts">
         <h2>Contact</h2>
-        <p><strong>Email:</strong> carmania@gmail.com</p>
+        <p><strong>Email:</strong> <a href="mailto:carmania@gmail.com?subject=Hi there!">carmania@gmail.com</a></p>
         <p><strong>Phone:</strong> 201-433-5678</p>
         <p><strong>Address:</strong></p>
           <address class="">
@@ -119,9 +125,8 @@
         <p><small>&copy;2017 Car Mania</small></p>
 
       </footer>
-     </div>
+
+     </div> <!-- end of div tag -->
      <script src="./apps.js" charset="utf-8"></script>
     </body>
-
-
   </html>
