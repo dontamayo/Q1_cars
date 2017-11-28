@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+body {
+	font-family: 'Varela Round', sans-serif;
+	background: #B8D3DB;
+}
+.grid {
+max-width: auto;
+  /*display: grid;
+  grid-template-columns: 200px auto 200px;
+  grid-template-rows: 100px 400px ;*/
+}
